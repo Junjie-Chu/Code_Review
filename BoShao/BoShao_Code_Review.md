@@ -23,4 +23,4 @@ pip uninstall numpy
 pip install "numpy<2.0"
 ```
 2. We need to try the models ourselves. His code does not save any models or report any results in the intermediate process.
-3. He only reports the prediction accuracy on the poisoned test dataset, no any other results. So only based on the output of his code, we cannot decide if his attack is success.
+3. He only reports the prediction accuracy on the triggered images, no any other results. So only based on the output of his code, we cannot decide if his attack keeps the utility / succeeds.
