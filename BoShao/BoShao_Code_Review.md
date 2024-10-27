@@ -7,7 +7,7 @@ ERROR: No matching distribution found for bitsandbytes==0.44.1
 ```
 The requirements.txt file is NOT correct.
 2. We need to try the models ourselves. His code does not save any models or report any results in the intermediate process.
-3. The code only reports and member/non-member accuracy on the test dataset, and the accuracy is less than 50% (49.53%).
+3. The code only reports and member/non-member accuracy on the test dataset, and the accuracy is less than 50% (49.53%). So the MIA attack fails accorrding to the accuracy.  
 
 # BadNet
 Use Python 3.10
@@ -23,4 +23,4 @@ pip uninstall numpy
 pip install "numpy<2.0"
 ```
 2. We need to try the models ourselves. His code does not save any models or report any results in the intermediate process.
-3. He only reports the prediction accuracy on the poisoned test dataset, no any other results. So only based on the output of his code, we cannot decide if his code is right.
+3. He only reports the prediction accuracy on the poisoned test dataset, no any other results. So only based on the output of his code, we cannot decide if his attack is success.
