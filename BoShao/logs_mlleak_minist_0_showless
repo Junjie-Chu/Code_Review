@@ -1,0 +1,11 @@
+Dataset: MNIST
+Epoch [15], data [61], Loss: 2.4131
+Epoch [15/15], Loss: 2.4131
+Attack model probabilities: tensor([[0.5004, 0.4996],
+        [0.5324, 0.4676],
+        [0.5056, 0.4944],
+        ...,
+        [0.4382, 0.5618],
+        [0.5002, 0.4998],
+        [0.4934, 0.5066]])
+Accuracy of the attack model on the test set: 49.53%
